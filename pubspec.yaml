@@ -1,6 +1,6 @@
 name: mazarbul
 description: Mazarbul is a Dart package that provides a simple interface to work with SharedPreferences. It offers methods to save and retrieve various data types with associated keys.
-version: 1.0.6
+version: 1.0.7
 homepage: https://github.com/fatiharge/mazarbul.git
 
 environment:
