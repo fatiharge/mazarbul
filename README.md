@@ -57,7 +57,6 @@ Mazarbul is a term from J.R.R. Tolkien's legendarium, specifically from the worl
 
 ![Mazarbul](assets/img.png)
 
-![Mazarbul](https://i0.wp.com/ortadunya.com/wp-content/uploads/2016/08/Mazarbul-Kitab%C4%B1.jpg?w=703&ssl=1)
 
 ## Fatiharge
 
