@@ -23,4 +23,4 @@
 - Update badge 
 
 ## [1.0.8] - 2023-08-27
-- Readme badge 
+- Readme update 
