@@ -23,4 +23,7 @@
 - Update badge 
 
 ## [1.0.8] - 2023-08-27
-- Readme update 
+- Readme update
+
+## [1.0.9] - 2023-08-27
+- add getSharedInstance() method

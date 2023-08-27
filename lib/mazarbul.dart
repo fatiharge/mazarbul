@@ -29,7 +29,12 @@ class Mazarbul {
 
   /// Initializes the SharedPreferences instance if not already initialized.
   Future<void> initSp() async {
-    _sp ??= await SharedPreferences.getInstance();
+    _sp ??= await getSharedInstance();
+  }
+
+  /// Loads and parses the SharedPreferences for this app from disk.
+  Future<SharedPreferences> getSharedInstance() async {
+    return await SharedPreferences.getInstance();
   }
 
   /// Returns the singleton Mazarbul instance.
