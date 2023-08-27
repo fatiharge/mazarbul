@@ -9,3 +9,6 @@
 
 ## [1.0.3] - 2023-08-28
 - Readme Update
+
+## [1.0.4] - 2023-08-28
+- LICENSE Update
