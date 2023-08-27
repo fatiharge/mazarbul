@@ -21,12 +21,10 @@ class Mazarbul {
 
   // Method to initialize SharedPreferences.
   Future<void> initSp() async {
-
     _sp ??= await SharedPreferences.getInstance();
   }
 
   SharedPreferences? _sp;
-
 
   SharedPreferences? get sp => _sp;
 
