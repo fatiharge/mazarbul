@@ -20,13 +20,13 @@ class Mazarbul {
   }
 
   // Method to initialize SharedPreferences.
-  Future<void> initSp(Enum enm) async {
-    _enum ??= enm;
+  Future<void> initSp() async {
+
     _sp ??= await SharedPreferences.getInstance();
   }
 
   SharedPreferences? _sp;
-  Enum? _enum;
+
 
   SharedPreferences? get sp => _sp;
 
