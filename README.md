@@ -1,6 +1,6 @@
 # Mazarbul Package
 
-![Version](https://img.shields.io/badge/version-1.0.7-blue.svg?cacheSeconds=2592000)
+![Version](https://img.shields.io/badge/version-1.0.8-blue.svg?cacheSeconds=2592000)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Mazarbul is a Dart package that provides a simple interface to work with SharedPreferences. It offers methods to save and retrieve various data types with associated keys.
@@ -12,7 +12,7 @@ Mazarbul is a Dart package that provides a simple interface to work with SharedP
 import 'package:mazarbul/mazarbul.dart';
 
 // Initialize Mazarbul
-await Mazarbul().initSp(Enum.someEnumValue);
+await Mazarbul().initSp();
 
 // Save a String value
 Mazarbul().saveString(Enum.someKey, 'Hello, Mazarbul!');
