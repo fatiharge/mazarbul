@@ -41,7 +41,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Mazarbul is a term from J.R.R. Tolkien's legendarium, specifically from the world of Middle-earth. In the fictional universe, Mazarbul refers to a book of records kept by dwarves in Khazad-dûm (also known as Moria). Just like the book in Middle-earth, this package aims to help you record and retrieve data easily using SharedPreferences.
 
-![Mazarbul](assets/img.png)
+![Mazarbul](https://raw.githubusercontent.com/fatiharge/mazarbul/main/assets/img.png)
 
 
 ## Fatiharge
