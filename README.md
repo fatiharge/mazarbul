@@ -5,20 +5,6 @@
 
 Mazarbul is a Dart package that provides a simple interface to work with SharedPreferences. It offers methods to save and retrieve various data types with associated keys.
 
-## Installation
-
-Add this line to your `pubspec.yaml` file:
-
-```yaml
-dependencies:
-  mazarbul: ^1.0.0
-```
-
-Then run:
-
-```sh
-flutter pub get
-```
 
 ## Usage
 
