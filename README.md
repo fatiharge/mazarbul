@@ -1,6 +1,6 @@
 # Mazarbul Package
 
-![Version](https://img.shields.io/badge/version-1.0.9-blue.svg?cacheSeconds=2592000)
+![Version](https://img.shields.io/badge/version-1.1.0-blue.svg?cacheSeconds=2592000)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Mazarbul is a Dart package that provides a simple interface to work with SharedPreferences. It offers methods to save and retrieve various data types with associated keys.

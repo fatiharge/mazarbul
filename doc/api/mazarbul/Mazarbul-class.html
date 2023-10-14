@@ -50,13 +50,20 @@
 </header>
 <main>
 
-  <div id="dartdoc-main-content" class="main-content">
+  <div
+      id="dartdoc-main-content"
+      class="main-content"
+      data-above-sidebar="mazarbul&#47;mazarbul-library-sidebar.html"
+      data-below-sidebar="mazarbul&#47;Mazarbul-class-sidebar.html">
       <div>
 <h1><span class="kind-class">Mazarbul</span> class 
  
 </h1></div>
 
     
+<section class="desc markdown">
+  <p>The main class for interacting with SharedPreferences.</p>
+</section>
 
 
 
@@ -69,14 +76,14 @@
           <span class="name"><a href="../mazarbul/Mazarbul/Mazarbul.html">Mazarbul</a></span><span class="signature">()</span>
         </dt>
         <dd>
-          
+          Standard factory constructor that returns the singleton instance.
             <div class="constructor-modifier features">factory</div>
         </dd>
         <dt id="Mazarbul.withSharedPreferences" class="callable">
           <span class="name"><a href="../mazarbul/Mazarbul/Mazarbul.withSharedPreferences.html">Mazarbul.withSharedPreferences</a></span><span class="signature">(<span class="parameter" id="withSharedPreferences-param-sp"><span class="type-annotation"><a href="https://pub.dev/documentation/shared_preferences/2.2.0/shared_preferences/SharedPreferences-class.html">SharedPreferences</a></span> <span class="parameter-name">sp</span></span>)</span>
         </dt>
         <dd>
-          
+          Constructor to create a Mazarbul instance with initialized SharedPreferences.
             <div class="constructor-modifier features">factory</div>
         </dd>
     </dl>
@@ -136,7 +143,20 @@
 
 </dt>
 <dd>
+  Retrieves a Boolean value associated with a specified key.
   
+
+</dd>
+
+        <dt id="getSharedInstance" class="callable">
+  <span class="name"><a href="../mazarbul/Mazarbul/getSharedInstance.html">getSharedInstance</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://pub.dev/documentation/shared_preferences/2.2.0/shared_preferences/SharedPreferences-class.html">SharedPreferences</a></span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Loads and parses the SharedPreferences for this app from disk.
   
 
 </dd>
@@ -149,7 +169,7 @@
 
 </dt>
 <dd>
-  
+  Retrieves a String value associated with a specified key.
   
 
 </dd>
@@ -162,7 +182,7 @@
 
 </dt>
 <dd>
-  
+  Retrieves a list of String items associated with a specified key.
   
 
 </dd>
@@ -175,7 +195,7 @@
 
 </dt>
 <dd>
-  
+  Initializes the SharedPreferences instance if not already initialized.
   
 
 </dd>
@@ -201,7 +221,7 @@
 
 </dt>
 <dd>
-  
+  Removes a value associated with a specified key.
   
 
 </dd>
@@ -214,7 +234,7 @@
 
 </dt>
 <dd>
-  
+  Saves a Boolean value with a specified key.
   
 
 </dd>
@@ -227,7 +247,7 @@
 
 </dt>
 <dd>
-  
+  Saves a String value with a specified key.
   
 
 </dd>
@@ -240,7 +260,7 @@
 
 </dt>
 <dd>
-  
+  Saves a list of String items with a specified key.
   
 
 </dd>
@@ -292,7 +312,7 @@
 
 </dt>
 <dd>
-  
+  Returns the singleton Mazarbul instance.
   <div class="features"><span class="feature">read-only</span></div>
 
 </dd>
@@ -306,72 +326,25 @@
   </div> <!-- /.main-content -->
 
   <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
-    <header id="header-search-sidebar" class="hidden-l">
+    <!-- The search input and breadcrumbs below are only responsively visible at low resolutions. -->
+<header id="header-search-sidebar" class="hidden-l">
   <form class="search-sidebar" role="search">
     <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
   </form>
 </header>
 
 <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
-  <li><a href="../index.html">mazarbul</a></li>
-  <li><a href="../mazarbul/mazarbul-library.html">mazarbul</a></li>
-  <li class="self-crumb">Mazarbul class</li>
+    <li><a href="../index.html">mazarbul</a></li>
+    <li><a href="../mazarbul/mazarbul-library.html">mazarbul</a></li>
+    <li class="self-crumb">Mazarbul class</li>
 </ol>
 
 
-    <h5>mazarbul library</h5>
-    <ol>
-      <li class="section-title"><a href="../mazarbul/mazarbul-library.html#classes">Classes</a></li>
-        <li><a href="../mazarbul/Mazarbul-class.html">Mazarbul</a></li>
-
-
-
-
-
-
-
-
-</ol>
-
+    <!--<h5>mazarbul library</h5>-->
+    <div id="dartdoc-sidebar-left-content"></div>
   </div>
 
   <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
-    <ol>
-
-        <li class="section-title"><a href="../mazarbul/Mazarbul-class.html#constructors">Constructors</a></li>
-          <li><a href="../mazarbul/Mazarbul/Mazarbul.html">Mazarbul</a></li>
-          <li><a href="../mazarbul/Mazarbul/Mazarbul.withSharedPreferences.html">withSharedPreferences</a></li>
-
-
-        <li class="section-title">
-          <a href="../mazarbul/Mazarbul-class.html#instance-properties">Properties</a>
-        </li>
-          <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/hashCode.html">hashCode</a></li>
-          <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/runtimeType.html">runtimeType</a></li>
-          <li><a href="../mazarbul/Mazarbul/sp.html">sp</a></li>
-
-        <li class="section-title"><a href="../mazarbul/Mazarbul-class.html#instance-methods">Methods</a></li>
-          <li><a href="../mazarbul/Mazarbul/getBool.html">getBool</a></li>
-          <li><a href="../mazarbul/Mazarbul/getString.html">getString</a></li>
-          <li><a href="../mazarbul/Mazarbul/getStrings.html">getStrings</a></li>
-          <li><a href="../mazarbul/Mazarbul/initSp.html">initSp</a></li>
-          <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">noSuchMethod</a></li>
-          <li><a href="../mazarbul/Mazarbul/removeItem.html">removeItem</a></li>
-          <li><a href="../mazarbul/Mazarbul/saveBool.html">saveBool</a></li>
-          <li><a href="../mazarbul/Mazarbul/saveString.html">saveString</a></li>
-          <li><a href="../mazarbul/Mazarbul/saveStringItems.html">saveStringItems</a></li>
-          <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/toString.html">toString</a></li>
-
-        <li class="section-title inherited"><a href="../mazarbul/Mazarbul-class.html#operators">Operators</a></li>
-          <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/operator_equals.html">operator ==</a></li>
-
-
-        <li class="section-title"><a href="../mazarbul/Mazarbul-class.html#static-properties">Static properties</a></li>
-          <li><a href="../mazarbul/Mazarbul/instance.html">instance</a></li>
-
-
-</ol>
-
   </div><!--/.sidebar-offcanvas-->
 
 </main>
@@ -379,7 +352,7 @@
 <footer>
   <span class="no-break">
     mazarbul
-      1.0.0
+      1.1.0
   </span>
 
   

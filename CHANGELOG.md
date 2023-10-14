@@ -27,3 +27,6 @@
 
 ## [1.0.9] - 2023-08-27
 - add getSharedInstance() method
+
+## 1.1.0
+- fix #1 issue 

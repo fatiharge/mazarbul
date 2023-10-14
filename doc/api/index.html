@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
-  <meta name="generator" content="made with love by dartdoc 6.2.2">
+  <meta name="generator" content="made with love by dartdoc 7.0.0-dev">
   <meta name="description" content="mazarbul API docs, for the Dart programming language.">
   <title>mazarbul - Dart API docs</title>
 
@@ -53,22 +53,14 @@
       
 <section class="desc markdown">
   <h1 id="mazarbul-package">Mazarbul Package</h1>
-<p><img src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" alt="Version">
+<p><img src="https://img.shields.io/badge/version-1.1.0-blue.svg?cacheSeconds=2592000" alt="Version">
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a></p>
 <p>Mazarbul is a Dart package that provides a simple interface to work with SharedPreferences. It offers methods to save and retrieve various data types with associated keys.</p>
-<h2 id="installation">Installation</h2>
-<p>Add this line to your <code>pubspec.yaml</code> file:</p>
-<pre class="language-yaml"><code class="language-yaml">dependencies:
-  mazarbul: ^1.0.0
-</code></pre>
-<p>Then run:</p>
-<pre class="language-sh"><code class="language-sh">flutter pub get
-</code></pre>
 <h2 id="usage">Usage</h2>
 <pre class="language-dart"><code class="language-dart">import 'package:mazarbul/mazarbul.dart';
 
 // Initialize Mazarbul
-await Mazarbul().initSp(Enum.someEnumValue);
+await Mazarbul().initSp();
 
 // Save a String value
 Mazarbul().saveString(Enum.someKey, 'Hello, Mazarbul!');
@@ -90,7 +82,7 @@ bool? retrievedBool = Mazarbul().getBool(Enum.someBoolKey);
 <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
 <h2 id="what-is-mazarbul">What is Mazarbul?</h2>
 <p>Mazarbul is a term from J.R.R. Tolkien's legendarium, specifically from the world of Middle-earth. In the fictional universe, Mazarbul refers to a book of records kept by dwarves in Khazad-dûm (also known as Moria). Just like the book in Middle-earth, this package aims to help you record and retrieve data easily using SharedPreferences.</p>
-<p><img src="assets/img.png" alt="Mazarbul"></p>
+<p><img src="https://raw.githubusercontent.com/fatiharge/mazarbul/main/assets/img.png" alt="Mazarbul"></p>
 <h2 id="fatiharge">Fatiharge</h2>
 <p>Bu proje <a href="https://www.fatiharge.com">Fatih Ar-Ge</a> tarafından geliştirilmiştir. Dart projelerinde SharedPreferences kullanımını basitleştirmeyi amaçlayan bir basit projedir. "Mazarbul" paket adı, Orta Dünya'nın zengin mitolojisinden ilham alarak seçilmiş olup, J.R.R. Tolkien'in büyük eserine saygıdır.</p>
 <p>This project is proudly developed by <a href="https://www.fatiharge.com">Fatih Ar-Ge</a> to simplify working with SharedPreferences in Flutter projects. The package name "Mazarbul" is inspired by the rich lore of Middle-earth, paying homage to the great work of J.R.R. Tolkien.</p>
@@ -104,7 +96,7 @@ bool? retrievedBool = Mazarbul().getBool(Enum.someBoolKey);
   <span class="name"><a href="mazarbul/mazarbul-library.html">mazarbul</a></span> 
 
 </dt>
-<dd>
+<dd>A library for managing SharedPreferences using the singleton pattern.
 </dd>
 
         </dl>
@@ -113,14 +105,15 @@ bool? retrievedBool = Mazarbul().getBool(Enum.someBoolKey);
   </div> <!-- /.main-content -->
 
   <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
-    <header id="header-search-sidebar" class="hidden-l">
+    <!-- The search input and breadcrumbs below are only responsively visible at low resolutions. -->
+<header id="header-search-sidebar" class="hidden-l">
   <form class="search-sidebar" role="search">
     <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
   </form>
 </header>
 
 <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
-  <li><a href="https://github.com/fatiharge/mazarbul.git">mazarbul package</a></li>
+    <li><a href="https://github.com/fatiharge/mazarbul.git">mazarbul package</a></li>
 </ol>
 
 
@@ -140,7 +133,7 @@ bool? retrievedBool = Mazarbul().getBool(Enum.someBoolKey);
 <footer>
   <span class="no-break">
     mazarbul
-      1.0.0
+      1.1.0
   </span>
 
   
