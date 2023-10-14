@@ -40,6 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
     super.initState();
     _fetchData();
   }
+
   /// Fetches saved data from Mazarbul and updates the state.
   Future<void> _fetchData() async {
     _userName = Mazarbul.instance.getString(KeyType.userName) ?? "";
@@ -53,6 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     setState(() {});
   }
+
   /// Saves user-entered data to Mazarbul and updates the state.
   Future<void> _saveData() async {
     _userName = _customDataController.value.text;
