@@ -8,7 +8,8 @@ import 'src/exceptions/shared_init_exception.dart';
 class Mazarbul {
   /// A private instance for implementing the singleton pattern.
   static final Mazarbul _instance = Mazarbul._internal();
-
+  
+  final String _strPackagekey ="fatihargeMazarbul";
   /// Private constructor, not intended for direct use.
   Mazarbul._internal();
 
@@ -52,7 +53,7 @@ class Mazarbul {
   /// [key] The enum key for the value.
   /// [value] The value to be saved.
   void saveString(Enum key, String value) {
-    instance._sp!.setString(key.name, value);
+    instance._sp!.setString(_strPackagekey+key.name, value);
   }
 
   /// Saves a Boolean value with a specified key.
@@ -60,7 +61,7 @@ class Mazarbul {
   /// [key] The enum key for the value.
   /// [value] The value to be saved.
   Future<void> saveBool(Enum key, bool value) async {
-    await instance._sp!.setBool(key.name, value);
+    await instance._sp!.setBool(_strPackagekey+key.name, value);
   }
 
   /// Saves a list of String items with a specified key.
@@ -68,34 +69,34 @@ class Mazarbul {
   /// [key] The enum key for the value.
   /// [value] The list of values to be saved.
   Future<void> saveStringItems(Enum key, List<String> value) async {
-    await instance._sp!.setStringList(key.name, value);
+    await instance._sp!.setStringList(_strPackagekey+key.name, value);
   }
 
   /// Retrieves a list of String items associated with a specified key.
   ///
   /// [key] The enum key for the value.
   List<String>? getStrings(Enum key) {
-    return instance._sp!.getStringList(key.name);
+    return instance._sp!.getStringList(_strPackagekey+key.name);
   }
 
   /// Retrieves a String value associated with a specified key.
   ///
   /// [key] The enum key for the value.
   String? getString(Enum key) {
-    return instance._sp!.getString(key.name);
+    return instance._sp!.getString(_strPackagekey+key.name);
   }
 
   /// Retrieves a Boolean value associated with a specified key.
   ///
   /// [key] The enum key for the value.
   bool? getBool(Enum key) {
-    return _sp!.getBool(key.name);
+    return _sp!.getBool(_strPackagekey+key.name);
   }
 
   /// Removes a value associated with a specified key.
   ///
   /// [key] The enum key for the value.
   Future<bool> removeItem(Enum key) async {
-    return await _sp!.remove(key.name);
+    return await _sp!.remove(_strPackagekey+key.name);
   }
 }
