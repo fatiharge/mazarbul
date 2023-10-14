@@ -31,7 +31,7 @@ bool? retrievedBool = Mazarbul().getBool(Enum.someBoolKey);
 
 ## API Reference
 
-For detailed information about the available methods, check out the [API Reference](https://your-api-reference-url.com).
+For detailed information about the available methods, check out the [API Reference](https://fatiharge.github.io/mazarbul/).
 
 ## License
 
